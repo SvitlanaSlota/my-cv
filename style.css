@@ -1,0 +1,80 @@
+/* Basic CV Styles */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border-radius: 8px;
+  padding: 32px;
+}
+
+h1, h2, h3 {
+  color: #2a4d7c;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 4px;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 4px;
+}
+
+.section {
+  margin-bottom: 28px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+.contact-info {
+  font-size: 1em;
+  margin-bottom: 18px;
+  color: #555;
+}
+
+a {
+  color: #2a4d7c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .cv-container {
+    padding: 16px;
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.1em;
+  }
+}
